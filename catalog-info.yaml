@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Techdocs-Sample"
+  description: "A sample of techdocs"
+  annotations:
+    github.com/project-slug: leeba-julius/Techdocs-Sample
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "leeba-julius"
